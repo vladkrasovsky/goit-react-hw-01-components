@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
-console.log(css);
-
 const Profile = props => {
   const {
     username,
