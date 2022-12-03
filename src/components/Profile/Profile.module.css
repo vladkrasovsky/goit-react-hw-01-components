@@ -13,21 +13,21 @@
   overflow: hidden;
 }
 
-.profile .description {
+.description {
   padding: 35px;
 }
 
-.profile .description p {
+.description p {
   margin-bottom: 0;
   margin-top: 10px;
 }
 
-.profile .avatar {
+.avatar {
   height: 120px;
   width: 120px;
 }
 
-.profile p.name {
+p.name {
   margin-top: 25px;
 
   font-size: 18px;
@@ -35,7 +35,7 @@
   color: rgb(47, 60, 76);
 }
 
-.profile .stats {
+.stats {
   display: flex;
   padding-left: 0;
   margin: 0;
@@ -46,20 +46,20 @@
   list-style-type: none;
 }
 
-.profile .stats > li {
+.stats > li {
   padding: 25px 15px;
   width: calc(100% / 3);
 }
 
-.profile .stats > li:not(:last-child) {
+.stats > li:not(:last-child) {
   border-right: 1px solid rgb(228, 233, 240);
 }
 
-.profile .label {
+.label {
   font-size: 13px;
 }
 
-.profile .quantity {
+.quantity {
   display: block;
   margin-top: 2px;
 

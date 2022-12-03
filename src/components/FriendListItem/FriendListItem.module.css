@@ -23,7 +23,7 @@
   background-color: red;
 }
 
-.is-online {
+.isOnline {
   composes: status;
   background-color: green;
 }
